@@ -67,7 +67,7 @@ Este projeto demonstra várias técnicas do Tailwind CSS:
 - Personalização do tema e configurações
 - Criação de componentes com @layer
 - Animações e transições
-- Design responsivo com os breakpoints padrão
+- Design responsivo com os breakpoints padrões
 
 ## Autor
 
