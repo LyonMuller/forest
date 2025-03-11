@@ -33,7 +33,7 @@ jobs:
           npm install
           npx tailwindcss -i ./src/input.css -o ./src/output.css --minify
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./src
 
