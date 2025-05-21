@@ -1,82 +1,82 @@
-# Forest - Projeto Tailwind CSS
+# Forest - Tailwind CSS Project
 
-![Projeto Forest](./src/img/cover.png)
+![Forest Project](./src/img/cover.png)
 
-## Sobre o Projeto
+## About the Project
 
-Forest é um site desenvolvido durante o curso de Tailwind CSS da [Origamid](https://www.origamid.com/). O projeto demonstra a implementação de um design moderno com tema florestal utilizando as classes utilitárias do Tailwind CSS.
+Forest is a website developed during the Tailwind CSS course by [Origamid](https://www.origamid.com/). The project demonstrates the implementation of a modern design with a forest theme using Tailwind CSS utility classes.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - [Tailwind CSS](https://tailwindcss.com/) v3.4.17
 - HTML5
-- JavaScript Vanilla
-- Fontes: DM Sans e DM Serif Text (Google Fonts)
+- Vanilla JavaScript
+- Fonts: DM Sans and DM Serif Text (Google Fonts)
 
-## Funcionalidades
+## Features
 
-- Design responsivo
-- Animações personalizadas
-- Tema personalizado com paleta de cores verdes
-- Componentes customizados via `@layer components`
-- Gradientes estilizados
+- Responsive design
+- Custom animations
+- Custom theme with green color palette
+- Custom components via `@layer components`
+- Styled gradients
 
-## Customizações do Tailwind
+## Tailwind Customizations
 
-O projeto inclui customizações avançadas do Tailwind CSS:
+The project includes advanced Tailwind CSS customizations:
 
-- Cores personalizadas na paleta de verde
-- Fontes customizadas
-- Animações e keyframes personalizados
-- Plugins customizados para delays de animação
-- Componentes estilizados como botões, inputs e efeitos neon
+- Custom colors in the green palette
+- Custom fonts
+- Custom animations and keyframes
+- Custom plugins for animation delays
+- Styled components like buttons, inputs, and neon effects
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 forest/
 ├── src/
-│   ├── img/           # Imagens do projeto
-│   ├── js/            # Scripts JavaScript
-│   ├── video/         # Arquivos de vídeo
-│   ├── input.css      # Arquivo de entrada do Tailwind
-│   ├── output.css     # CSS compilado
-│   └── index.html     # Página principal
-├── tailwind.config.js # Configuração do Tailwind
-└── package.json       # Dependências
+│   ├── img/           # Project images
+│   ├── js/            # JavaScript scripts
+│   ├── video/         # Video files
+│   ├── input.css      # Tailwind input file
+│   ├── output.css     # Compiled CSS
+│   └── index.html     # Main page
+├── tailwind.config.js # Tailwind configuration
+└── package.json       # Dependencies
 ```
 
-## Como Executar o Projeto
+## How to Run the Project
 
-1. Clone este repositório
-2. Instale as dependências:
+1. Clone this repository
+2. Install dependencies:
    ```
    npm install
    ```
-3. Execute o build do Tailwind:
+3. Run Tailwind build:
    ```
    npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
    ```
-4. Abra o arquivo `src/index.html` em seu navegador
+4. Open `src/index.html` in your browser
 
-## Aprendizados
+## Learnings
 
-Este projeto demonstra várias técnicas do Tailwind CSS:
+This project demonstrates various Tailwind CSS techniques:
 
-- Utilização do sistema de classes utilitárias
-- Personalização do tema e configurações
-- Criação de componentes com @layer
-- Animações e transições
-- Design responsivo com os breakpoints padrões
+- Utilization of utility classes system
+- Theme and configuration customization
+- Component creation with @layer
+- Animations and transitions
+- Responsive design with default breakpoints
 
-## Autor
+## Author
 
-Desenvolvido por Lyon Müller durante o curso de Tailwind CSS da Origamid, ministrado por André Rafael.
+Developed by Lyon Müller during the Tailwind CSS course by Origamid, taught by André Rafael.
 
-## Licença
+## License
 
-Este projeto foi desenvolvido com propósitos educacionais. Design original por Origamid.
+This project was developed for educational purposes. Original design by Origamid.
 
 ---
 
-Projeto construído como parte do curso de Tailwind CSS da [Origamid](https://www.origamid.com/). 
+Project built as part of the Tailwind CSS course by [Origamid](https://www.origamid.com/).
